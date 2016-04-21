@@ -1,0 +1,118 @@
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O             BLOCK I/O
+c8fc10661c60        142.69%             19.08 MB / 536.9 MB   3.55%               1.9 MB / 1.738 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        140.23%             20.65 MB / 536.9 MB   3.85%               2.755 MB / 2.794 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        140.23%             20.65 MB / 536.9 MB   3.85%               2.755 MB / 2.794 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT    MEM %               NET I/O              BLOCK I/O
+c8fc10661c60        141.40%             21.7 MB / 536.9 MB   4.04%               3.556 MB / 3.87 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT    MEM %               NET I/O              BLOCK I/O
+c8fc10661c60        141.40%             21.7 MB / 536.9 MB   4.04%               3.556 MB / 3.87 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT    MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        140.39%             21.7 MB / 536.9 MB   4.04%               4.265 MB / 4.931 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT    MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        140.39%             21.7 MB / 536.9 MB   4.04%               4.265 MB / 4.931 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        141.53%             22.24 MB / 536.9 MB   4.14%               5.004 MB / 5.989 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        141.53%             22.24 MB / 536.9 MB   4.14%               5.004 MB / 5.989 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        140.60%             22.24 MB / 536.9 MB   4.14%               5.712 MB / 7.051 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        140.60%             22.24 MB / 536.9 MB   4.14%               5.712 MB / 7.051 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        140.10%             22.24 MB / 536.9 MB   4.14%               6.424 MB / 8.114 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        140.10%             22.24 MB / 536.9 MB   4.14%               6.424 MB / 8.114 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O              BLOCK I/O
+c8fc10661c60        140.05%             22.24 MB / 536.9 MB   4.14%               7.13 MB / 9.173 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O              BLOCK I/O
+c8fc10661c60        140.05%             22.24 MB / 536.9 MB   4.14%               7.13 MB / 9.173 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        138.32%             22.24 MB / 536.9 MB   4.14%               7.838 MB / 10.23 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        138.32%             22.24 MB / 536.9 MB   4.14%               7.838 MB / 10.23 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        139.83%             22.89 MB / 536.9 MB   4.26%               8.558 MB / 11.29 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        139.83%             22.89 MB / 536.9 MB   4.26%               8.558 MB / 11.29 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        141.22%             22.89 MB / 536.9 MB   4.26%               9.271 MB / 12.35 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        141.22%             22.89 MB / 536.9 MB   4.26%               9.271 MB / 12.35 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O              BLOCK I/O
+c8fc10661c60        140.25%             22.89 MB / 536.9 MB   4.26%               9.98 MB / 13.41 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O              BLOCK I/O
+c8fc10661c60        140.25%             22.89 MB / 536.9 MB   4.26%               9.98 MB / 13.41 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        138.71%             22.89 MB / 536.9 MB   4.26%               10.69 MB / 14.48 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        138.71%             22.89 MB / 536.9 MB   4.26%               10.69 MB / 14.48 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O              BLOCK I/O
+c8fc10661c60        140.19%             22.89 MB / 536.9 MB   4.26%               11.4 MB / 15.54 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O              BLOCK I/O
+c8fc10661c60        140.19%             22.89 MB / 536.9 MB   4.26%               11.4 MB / 15.54 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        140.73%             22.89 MB / 536.9 MB   4.26%               12.11 MB / 16.61 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        140.73%             22.89 MB / 536.9 MB   4.26%               12.11 MB / 16.61 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        139.87%             22.89 MB / 536.9 MB   4.26%               12.82 MB / 17.67 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        139.87%             22.89 MB / 536.9 MB   4.26%               12.82 MB / 17.67 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        138.50%             22.89 MB / 536.9 MB   4.26%               13.53 MB / 18.73 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        138.50%             22.89 MB / 536.9 MB   4.26%               13.53 MB / 18.73 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O              BLOCK I/O
+c8fc10661c60        139.00%             23.15 MB / 536.9 MB   4.31%               14.25 MB / 19.8 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O              BLOCK I/O
+c8fc10661c60        139.00%             23.15 MB / 536.9 MB   4.31%               14.25 MB / 19.8 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        142.58%             23.15 MB / 536.9 MB   4.31%               14.96 MB / 20.86 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        142.58%             23.15 MB / 536.9 MB   4.31%               14.96 MB / 20.86 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        140.33%             23.15 MB / 536.9 MB   4.31%               15.67 MB / 21.92 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        140.33%             23.15 MB / 536.9 MB   4.31%               15.67 MB / 21.92 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        140.09%             23.15 MB / 536.9 MB   4.31%               16.38 MB / 22.99 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        140.09%             23.15 MB / 536.9 MB   4.31%               16.38 MB / 22.99 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        140.13%             23.15 MB / 536.9 MB   4.31%               17.09 MB / 24.05 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        140.13%             23.15 MB / 536.9 MB   4.31%               17.09 MB / 24.05 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O              BLOCK I/O
+c8fc10661c60        141.53%             23.15 MB / 536.9 MB   4.31%               17.8 MB / 25.11 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O              BLOCK I/O
+c8fc10661c60        141.53%             23.15 MB / 536.9 MB   4.31%               17.8 MB / 25.11 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        140.40%             23.15 MB / 536.9 MB   4.31%               18.51 MB / 26.17 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        140.40%             23.15 MB / 536.9 MB   4.31%               18.51 MB / 26.17 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        140.96%             23.15 MB / 536.9 MB   4.31%               19.22 MB / 27.24 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        140.96%             23.15 MB / 536.9 MB   4.31%               19.22 MB / 27.24 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O              BLOCK I/O
+c8fc10661c60        138.16%             23.15 MB / 536.9 MB   4.31%               19.92 MB / 28.3 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O              BLOCK I/O
+c8fc10661c60        138.16%             23.15 MB / 536.9 MB   4.31%               19.92 MB / 28.3 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        141.10%             23.15 MB / 536.9 MB   4.31%               20.63 MB / 29.36 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        141.10%             23.15 MB / 536.9 MB   4.31%               20.63 MB / 29.36 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        140.37%             23.15 MB / 536.9 MB   4.31%               21.34 MB / 30.42 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        140.37%             23.15 MB / 536.9 MB   4.31%               21.34 MB / 30.42 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        142.51%             23.15 MB / 536.9 MB   4.31%               22.05 MB / 31.48 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        142.51%             23.15 MB / 536.9 MB   4.31%               22.05 MB / 31.48 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        129.75%             21.06 MB / 536.9 MB   3.92%               22.71 MB / 32.55 MB   0 B / 0 B
+[2J[HCONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
+c8fc10661c60        129.75%             21.06 MB / 536.9 MB   3.92%               22.71 MB / 32.55 MB   0 B / 0 B

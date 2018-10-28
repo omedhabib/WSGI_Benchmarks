@@ -1,8 +1,8 @@
 import socket
-from cherrypy import wsgiserver
+from cheroot.wsgi import Server as WSGIServer
 from app import application
 
-server = wsgiserver.CherryPyWSGIServer(
+server = WSGIServer(
     bind_addr=('0.0.0.0', 9808),
     wsgi_app=application,
     request_queue_size=500,

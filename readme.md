@@ -14,9 +14,15 @@ Pull requests are welcome!
 Steps to reproduce benchmarks
 -----------------------------
 
-### 1. Install docker ###
+### 1a. Install docker ###
 
 Please consult instructions for your distro
+The test was performed with docker version 18.06.1-ce.
+
+### 1b. Install wrk
+
+Please consult instructions for your distro
+The test was performed with wrk version 4.1.0
 
 ### 2. Run benchmark.sh ###
 

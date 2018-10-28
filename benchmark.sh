@@ -13,10 +13,10 @@ function start() {
     local id=$1
     shift
     echo "Starting $id ($*)"
-    CONTAINER=$(docker run --detach --memory 512MB --cpuset-cpus 0,1 --workdir /home/www/wsgi_benchmark -p $PORT:$PORT wsgi_benchmark "$@")
+    CONTAINER=$(docker run --detach --rm --memory 512MB --cpuset-cpus 0,1 --workdir /home/www/wsgi_benchmark -p $PORT:$PORT wsgi_benchmark "$@")
 
     while true; do
-        echo "    Waiting for container ..."
+        echo "    Waiting for container ... $CONTAINER"
         IP=$(docker inspect --format '{{ .NetworkSettings.IPAddress }}' "$CONTAINER")
         result=$(curl --silent "http://$IP:$PORT")
         if [[ "$result" == "OK" ]]; then
@@ -32,7 +32,7 @@ function stop() {
 }
 
 function perf() {
-    docker stats > "$BASE/$1.$2.stats" &
+    docker stats --no-trunc --format "{{.CPUPerc}} {{.MemUsage}}" > "$BASE/$1.$2.stats" &
     STATS_PID=$!
 
     echo "    Testing $1 with $2 connections ..."
@@ -40,6 +40,7 @@ function perf() {
 
     sleep 1
     kill $STATS_PID
+    wait $STATS_PID 2>/dev/null
 }
 
 # Install docker image (if needed)

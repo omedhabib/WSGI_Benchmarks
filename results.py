@@ -4,10 +4,10 @@ from __future__ import print_function
 import re
 import os
 import sys
-import glob
-import pprint
+import humanfriendly
 
 from collections import defaultdict
+
 
 class Results(object):
     def __init__(self):
@@ -17,8 +17,8 @@ class Results(object):
         self.MEMORY = defaultdict(lambda: defaultdict(int))
         self.CPU = defaultdict(lambda: defaultdict(int))
 
-class Parser(object):
 
+class Parser(object):
     RESULTS = defaultdict(Results)
     DIGITS_RE = re.compile(r'\d+')
     LATENCY_RE = re.compile(r'([\d\.]+)(\w+)')
@@ -49,27 +49,25 @@ class Parser(object):
 
     def _logHandler(self, directory, server, connections, content):
         for line in content:
-            parts = [ part for part in line.split(' ') if part ]
+            parts = [part for part in line.split(' ') if part]
             if parts[0] == 'Latency':
                 digits, unit = self.LATENCY_RE.match(parts[1]).groups()
                 self.RESULTS[directory].LATENCIES[server][connections] = float(digits) * self.LATENCY_MULTIPLIERS[unit]
             elif 'Requests' in parts[0]:
                 self.RESULTS[directory].REQUESTS[server][connections] = float(parts[1])
             elif 'Socket' == parts[0]:
-                self.RESULTS[directory].ERRORS[server][connections] = sum(
-                    int(i) for i in self.DIGITS_RE.findall(line)
-                )
+                self.RESULTS[directory].ERRORS[server][connections] = sum([int(i) for i in self.DIGITS_RE.findall(line)])
 
     def _statsHandler(self, directory, server, connections, content):
         for line in content:
-            parts = [ part for part in line.split(' ') if part ]
-            if 'CONTAINER' not in parts[0]:
-                cpu = float(parts[1].rstrip('%'))
-                memory = float(parts[2])
-                if cpu > self.RESULTS[directory].CPU[server][connections]:
-                    self.RESULTS[directory].CPU[server][connections] = cpu
-                if memory > self.RESULTS[directory].MEMORY[server][connections]:
-                    self.RESULTS[directory].MEMORY[server][connections] = memory
+            parts = [part for part in line.split(' ') if part]
+            cpu = float(parts[0].rstrip('%').lstrip('\x1b[2J\x1b[H'))
+            memory = humanfriendly.parse_size(parts[1])/1000000.0
+            if cpu > self.RESULTS[directory].CPU[server][connections]:
+                self.RESULTS[directory].CPU[server][connections] = cpu
+            if memory > self.RESULTS[directory].MEMORY[server][connections]:
+                self.RESULTS[directory].MEMORY[server][connections] = memory
+
 
 class Output(object):
 
@@ -100,7 +98,7 @@ class Output(object):
         )[1:-1]
 
         # Average the remaining values
-        return sum(values)/len(values)
+        return sum(values) / len(values)
 
     def _requests(self, results):
         print()
@@ -171,6 +169,7 @@ class Output(object):
                     ]
                 )
             )
+
 
 if __name__ == '__main__':
     parser = Parser()
